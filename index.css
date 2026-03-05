@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url("imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+h1{
+    font-family: "Gloria Hallelujah", cursive;
+    color: rgb(255, 255, 255);
+}
